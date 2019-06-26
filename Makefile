@@ -1,4 +1,4 @@
-REPO=gopacketdroid
+REPO=gopacket_android
 NAME=$(shell basename $(shell pwd))
 TAG=latest
 FULL_NAME=${REPO}/${NAME}:${TAG}
