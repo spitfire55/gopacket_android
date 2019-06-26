@@ -15,6 +15,6 @@ Gopacket for Android is a project that enables cross-compiling Go code that uses
 
 Consult [XDA-Developers](https://www.xda-developers.com) and the Googlez for assistance if you are unfamiliar. Difficulty varies across devices and OS versions.
 
-## 3. Run the gopacket for Android build system
+## 2. Run the gopacket for Android build system
 
 - Simply run `make` to build, copy, deploy, and run your Go code. Your Go code should be placed in the `go/` folder. An example `main.go` file has been provided.
