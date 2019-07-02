@@ -5,16 +5,7 @@ import (
     "github.com/google/gopacket"
     "github.com/google/gopacket/pcap"
     "log"
-    "time"
 )
-
-type probeData struct {
-    Timestamp time.Time
-    SrcMac    string
-    DstMac    string
-    Strength  int8
-    SSID      string
-}
 
 func main() {
     handle, err := pcap.OpenLive("wlan0", 65536, true, pcap.BlockForever)
